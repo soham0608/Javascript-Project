@@ -13,3 +13,12 @@ Winning Line: Highlight winning combinations with a visual line drawn across the
 Responsive Design: The game layout is designed to be responsive and look good on various screen sizes.
 
 Screenshots
+![Screenshot 2024-09-18 221327](https://github.com/user-attachments/assets/e6c8c6fb-4a74-49b5-8505-92631499214d)
+![Screenshot 2024-09-18 221347](https://github.com/user-attachments/assets/9057020b-9ab3-4022-b79b-ffe9c9241439)
+![Screenshot 2024-09-18 221359](https://github.com/user-attachments/assets/86118e2e-6041-4419-b111-8d4a2bebb7bd)
+![Screenshot 2024-09-18 221426](https://github.com/user-attachments/assets/9bc07f81-e92c-4b9f-8ee6-e4310ac46a9d)
+
+Technologies Used
+HTML: Structure of the game.
+CSS: Styling and layout.
+JavaScript: Game logic and interactivity.
