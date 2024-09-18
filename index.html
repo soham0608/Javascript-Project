@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic-Tac-Toe Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Tik Tac Toe Game</h1>
     <div class="container">
-        <div data-index="0" class="box"></div>
-        <div data-index="1" class="box"></div>
-        <div data-index="2" class="box"></div>
-        <div data-index="3" class="box"></div>
-        <div data-index="4" class="box"></div>
-        <div data-index="5" class="box"></div>
-        <div data-index="6" class="box"></div>
-        <div data-index="7" class="box"></div>
-        <div data-index="8" class="box"></div>
+        <h1>TIC TAC TOE</h1>
+        
+        <!-- Scoreboard -->
+        <div id="scoreboard">
+            <p>Player X: <span id="player-x-score">0</span></p>
+            <p>Player O: <span id="player-o-score">0</span></p>
+            <p>Draws: <span id="draws">0</span></p>
+        </div>
+        
+        <div id="game-board">
+            <div class="cell" id="cell-0"></div>
+            <div class="cell" id="cell-1"></div>
+            <div class="cell" id="cell-2"></div>
+            <div class="cell" id="cell-3"></div>
+            <div class="cell" id="cell-4"></div>
+            <div class="cell" id="cell-5"></div>
+            <div class="cell" id="cell-6"></div>
+            <div class="cell" id="cell-7"></div>
+            <div class="cell" id="cell-8"></div>
+        </div>
+        
+        <!-- Buttons and Status -->
+        <button id="restart-btn">Restart Game</button>
+        <button id="mode-btn">Switch to Computer Mode</button>
+        <p id="status"></p>
     </div>
-    <div class="status"></div>
-    <button class="restartBtn">Restart 🔁</button>
-
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
